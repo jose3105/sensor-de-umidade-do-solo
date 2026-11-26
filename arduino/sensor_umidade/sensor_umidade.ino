@@ -37,8 +37,8 @@ const uint8_t PINO_ALIMENTACAO_SENSOR = 7;
 // seco e em solo encharcado. A ordem pode ser crescente ou decrescente:
 //   sensor caseiro:     seco = valor BAIXO  (ex.: 20 / 700)
 //   sensor capacitivo:  seco = valor ALTO   (ex.: 520 / 260)
-const int LEITURA_SECO    = 20;
-const int LEITURA_MOLHADO = 700;
+const int LEITURA_SECO    = 118;  // calibrado em 25/11/2026: terra seca, hastes = pontas de jumper
+const int LEITURA_MOLHADO = 288;  // calibrado em 25/11/2026: terra encharcada
 
 // ---------------- Limites (%) ----------------
 const int LIMITE_SECO   = 30;  // abaixo disso: planta precisa de água
